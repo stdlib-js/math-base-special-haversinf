@@ -60,7 +60,7 @@ The half-value [versed sine][versed-sine] is defined as
 To use in Observable,
 
 ```javascript
-haversinf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-haversinf@umd/browser.js' )
+haversinf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-haversinf@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -72,7 +72,7 @@ var haversinf = require( 'path/to/vendor/umd/math-base-special-haversinf/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-haversinf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-haversinf@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -117,7 +117,7 @@ v = haversinf( -3.141592653589793/6.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-two-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-haversinf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-haversinf@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
